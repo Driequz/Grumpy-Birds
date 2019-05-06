@@ -27,5 +27,6 @@ public class RepeatingBackground : MonoBehaviour
     {
         Vector2 groundOffset = new Vector2(groundHorizontalLength * 2, 0);
         transform.position = (Vector2)transform.position + groundOffset;
+
     }
 }

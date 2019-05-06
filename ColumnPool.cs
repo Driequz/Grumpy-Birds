@@ -11,10 +11,11 @@ public class ColumnPool : MonoBehaviour
     public float columnYMax = 2f;
 
     private float timeSinceLastSpawn;
-    private float spawnXPosition = 10f;
+    private float spawnXPosition = 1f;
     private int currentColumn = 0;
 
     public GameObject columnsPrefab;
+    public GameObject columnsPrefab2;
 
     private GameObject[] columns;
     private Vector2 objectPoolPosition = new Vector2(-15,-25f);
@@ -22,10 +23,22 @@ public class ColumnPool : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        columns = new GameObject[columnPoolSize];
-        for(int i=0; i< columnPoolSize; i++)
+        bool useFace = GameObject.FindGameObjectWithTag("options").GetComponent<options>().faceControl;
+        if (!useFace)
         {
-            columns[i] = (GameObject)Instantiate(columnsPrefab, objectPoolPosition, Quaternion.identity);
+            columns = new GameObject[columnPoolSize];
+            for (int i = 0; i < columnPoolSize; i++)
+            {
+                columns[i] = (GameObject)Instantiate(columnsPrefab, objectPoolPosition, Quaternion.identity);
+            }
+        }
+        else
+        {
+            columns = new GameObject[columnPoolSize];
+            for (int i = 0; i < columnPoolSize; i++)
+            {
+                columns[i] = (GameObject)Instantiate(columnsPrefab2, objectPoolPosition, Quaternion.identity);
+            }
         }
     }
 
