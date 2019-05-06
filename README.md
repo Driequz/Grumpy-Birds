@@ -16,6 +16,8 @@ Please note that I am currently running Unity on verison **2018.3.4f1 Personal**
 
 You will also need to download **AFFECTIVA SDK** to run this game. To get this package please use this link (https://knowledge.affectiva.com/v3.2/docs/getting-started-with-the-emotion-sdk-for-unity)
 
+**Note** This package will be used so that the game can use your camera on your computer to check your facial expressions. So it is **Mandatory** that you run the game on a computer that has a camera or you will only be allowed to run the **Vanilla** version of the game.
+
 
  ## Running the Game
  ------------------------------------------
