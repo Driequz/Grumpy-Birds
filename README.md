@@ -7,7 +7,14 @@ The purpose of this game is to aide players in recognizing when their heart rate
 ## Requirements
 ------------------------------------------
 
-You will need to download **AFFECTIVA SDK** to run this game. To get this package please use this link (https://knowledge.affectiva.com/v3.2/docs/getting-started-with-the-emotion-sdk-for-unity)
+You will need to download the program called **Unity**. To get this program please refer to this link
+(https://store.unity.com/download?ref=personal) 
+
+Sometimes it may or may not ask you to **make an account**, if it does simply make one as it is free and will make things easier in the future.
+
+Please note that I am currently running Unity on verison **2018.3.4f1 Personal** So if any issues arise, please check to see whether or not you're using the correct version.
+
+You will also need to download **AFFECTIVA SDK** to run this game. To get this package please use this link (https://knowledge.affectiva.com/v3.2/docs/getting-started-with-the-emotion-sdk-for-unity)
 
 
  ## Running the Game
@@ -15,6 +22,7 @@ You will need to download **AFFECTIVA SDK** to run this game. To get this packag
  
  __To compile and run:__
 
+Once you get Unity installed and running:
 Make sure that you are in the correct **scene**. To do this double click the **intro** button
 
 ![The correct scene to click is highlighted blue](https://github.com/Driequz/Grumpy-Birds/blob/master/correct_scene.png)
