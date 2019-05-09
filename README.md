@@ -62,7 +62,7 @@ The goal of this game is to safely navigate the bird through the pipes without t
 ![Score](https://github.com/Driequz/Grumpy-Birds/blob/master/score.png)
 ## Hints
 
-Please not that there is no **Ceiling** in the game, meaning if you fly too high you will be off screen and may hit a pipe that is spawning off-screen.
+Please not that there is no **Ceiling** in the game, meaning if you fly too high you will be off-screen and may hit a pipe that is spawning off-screen.
 
 Also, be aware that the bird has an actual **weight** meaning that you will have to smile in preparation of the bird dropping due to gravity. If you smile then stop smiling and smile too late, since the bird is heavy it won't begin flying in time for you to live.
 
