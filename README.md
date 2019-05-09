@@ -42,7 +42,7 @@ This is because there are 2 options that you can choose from depending on what t
 To play the game in the default (vanilla) state then click the **Without face** button, as shown by the picture below
 ![Without face](https://github.com/Driequz/Grumpy-Birds/blob/master/without_face.png)
 
-To play the game using yout facial expressions you will click the **With face** button, as shown by the picture below
+To play the game using your facial expressions you will click the **With face** button, as shown by the picture below
 ![With face](https://github.com/Driequz/Grumpy-Birds/blob/master/with%20face.png)
 
 To play the game in the **Vanilla** mode you will need to click the **left mouse** button on your mouse, or just click the left part of your **touch pad**
