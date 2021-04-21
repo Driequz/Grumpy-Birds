@@ -49,7 +49,7 @@ To play the game in the **Vanilla** mode you will need to click the **left mouse
 
 To play the game with your facial expressions you will need to start **smiling** as soon as the game starts to give the camera time to register your face during the **buffer** period. Then to fall back down simply **stop smiling**
 
-The **Buffer** period, is the time where you character cannot move for 3 seconds to allow time for the camera to load up and start detecting your face, otherwise you will instantly crash and die.
+The **Buffer** period, is the time where your character cannot move for 3 seconds to allow time for the camera to load up and start detecting your face, otherwise you will instantly crash and die.
 
 ![Buffer period](https://github.com/Driequz/Grumpy-Birds/blob/master/buffer-period.png)
 
